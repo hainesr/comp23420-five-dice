@@ -9,7 +9,7 @@ public class FiveDice {
 		System.out.println("Five of a kind? " + turn.isFiveOfAKind());
 		System.out.println("Four of a kind? " + turn.isFourOfAKind());
 		System.out.println("Large straight? " + turn.isLargeStraight());
-		System.out.println("Over twenty? " + turn.isOverTwenty());
+		System.out.println("Over twenty?    " + turn.isOverTwenty());
 	}
 
 }
