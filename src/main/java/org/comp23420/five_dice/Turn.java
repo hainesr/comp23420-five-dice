@@ -7,8 +7,8 @@ public class Turn {
 
 	private final List<Integer> roll;
 
-	public Turn() {
-		roll = new Dice(6, 5).roll();
+	public Turn(Dice dice) {
+		roll = dice.roll();
 		Collections.sort(roll);
 	}
 
